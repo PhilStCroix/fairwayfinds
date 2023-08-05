@@ -1,27 +1,66 @@
-.App {
+@import "./colors.css";
+
+.Head1 {
+  text-align: center;
+  background-color: var(--primary-color);
+  font-size: 48px;
+  color: var(--fifth-color);
+}
+.Navbar {
+  font-size: 32px;
+  background-color: var(--third-color);
+  list-style: none;
+}
+
+.Nav-item {
+  color: var(--fifth-color);
+  padding: 0;
+  list-style: none;      
+}
+
+#home, h1{
+  color: var(--fifth-color);
+  text-align: center;
+  font-size: 32px;
+}
+.Category {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+h3{
+  font-size: 24px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--fifth-color);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  font-weight: 700;
+}
+
+a:visited {
+  color: black;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: (var)--primary-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: (var)--primary-color;
 }
 
 .App-link {
