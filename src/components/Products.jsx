@@ -29,6 +29,7 @@ const Products = () => {
             <table>
               <thead>
                 <tr>
+                  <th>Image</th>
                   <th>Name</th>
                   <th>Price</th>
                 </tr>
@@ -36,6 +37,13 @@ const Products = () => {
               <tbody>
                 {category.products.map((product) => (
                   <tr key={product.id}>
+                    <td>
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        style={{ width: "50px" }}
+                      />
+                    </td>
                     <td>
                       <Link to={`/details/${product.id}`}>{product.name}</Link>
                     </td>
