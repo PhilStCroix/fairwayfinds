@@ -4,24 +4,24 @@
       "id": 1,
       "name": "Apparel",
       "products": [
-        { "id": 100001, "name": "Apparel Product 1", "price": 10.99 },
-        { "id": 100002, "name": "Apparel Product 2", "price": 19.99 }
+        { "id": 100001, "name": "Apparel Product 1", "price": 10.99, "image": "https://via.placeholder.com/150" },
+        { "id": 100002, "name": "Apparel Product 2", "price": 19.99, "image": "https://via.placeholder.com/150"  }
       ]
     },
     {
       "id": 2,
       "name": "Equipment",
       "products": [
-        { "id": 200001, "name": "Equipment Product 1", "price": 14.99 },
-        { "id": 200002, "name": "Equipment Product 2", "price": 24.99 }
+        { "id": 200001, "name": "Equipment Product 1", "price": 14.99, "image": "https://via.placeholder.com/150"  },
+        { "id": 200002, "name": "Equipment Product 2", "price": 24.99, "image": "https://via.placeholder.com/150"  }
       ]
     },
     {
       "id": 3,
       "name": "Accessories",
       "products": [
-        { "id": 300001, "name": "Accessory Product 1", "price": 9.99 },
-        { "id": 300002, "name": "Accessory Product 2", "price": 29.99 }
+        { "id": 300001, "name": "Accessory Product 1", "price": 9.99, "image": "https://via.placeholder.com/150"  },
+        { "id": 300002, "name": "Accessory Product 2", "price": 29.99, "image": "https://via.placeholder.com/150"  }
       ]
     }
   ]

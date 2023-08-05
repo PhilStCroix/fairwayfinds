@@ -75,3 +75,57 @@ a:visited {
     transform: rotate(360deg);
   }
 }
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-name {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(139, 139, 139, 0.418);
+}
+
+#products {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/R.31234377bf93db03cfb0c6327e067dbb?rik=4yl%2fciRco%2bSN7w&riu=http%3a%2f%2fdcv0zcx4s6c9x.cloudfront.net%2fwp-content%2fuploads%2f2015%2f08%2f01204011%2fgolf-course.jpg&ehk=xOUWGRXZFLhEh4y2W265pP%2f1DhndLfHqOtRt52SiVDE%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.picture-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.details-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
