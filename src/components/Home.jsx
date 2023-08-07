@@ -14,7 +14,7 @@ const Home = () => {
           style={{
             maxWidth: "100%",
             height: "48vh",
-            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+            boxShadow: "4px 8px 12px rgba(0, 0, 0, 0.4)",
             border: "3px solid #ccc",
             borderRadius: "4px",
             borderColor: "forestgreen",
@@ -31,7 +31,7 @@ const Home = () => {
             style={{
               maxWidth: "100%",
               height: "20vh",
-              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+              boxShadow: "4px 8px 12px rgba(0, 0, 0, 0.4)",
               border: "3px solid #ccc",
               borderRadius: "4px",
               borderColor: "forestgreen",
@@ -46,7 +46,7 @@ const Home = () => {
             style={{
               maxWidth: "100%",
               height: "20vh",
-              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+              boxShadow: "4px 8px 12px rgba(0, 0, 0, 0.4)",
               border: "3px solid #ccc",
               borderRadius: "4px",
               borderColor: "forestgreen",
@@ -61,7 +61,7 @@ const Home = () => {
             style={{
               maxWidth: "100%",
               height: "20vh",
-              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+              boxShadow: "4px 8px 12px rgba(0, 0, 0, 0.4)",
               border: "3px solid #ccc",
               borderRadius: "4px",
               borderColor: "forestgreen",

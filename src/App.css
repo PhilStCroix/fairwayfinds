@@ -93,12 +93,15 @@ a:visited {
   background-color: rgba(139, 139, 139, 0.418);
   font-size: 20px;
   width: 480px;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
 }
 
 #products {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/R.31234377bf93db03cfb0c6327e067dbb?rik=4yl%2fciRco%2bSN7w&riu=http%3a%2f%2fdcv0zcx4s6c9x.cloudfront.net%2fwp-content%2fuploads%2f2015%2f08%2f01204011%2fgolf-course.jpg&ehk=xOUWGRXZFLhEh4y2W265pP%2f1DhndLfHqOtRt52SiVDE%3d&risl=&pid=ImgRaw&r=0);
   background-size: cover;
   background-position: center;
+  
+  
 }
 
 .details-container {
@@ -130,4 +133,41 @@ a:visited {
 .details-info p {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+.product-details-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-image {
+  flex: 1;
+  max-width: 500px;
+  border: solid 3px black;
+  margin-right: 20px;
+  background-color: white;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.product-info {
+  flex: 2;
+  padding: 20px;
+  background-color: white;
+  border: solid 3px black;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }

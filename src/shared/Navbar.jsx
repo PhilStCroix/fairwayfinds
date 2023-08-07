@@ -25,11 +25,6 @@ const Navbar = () => {
             <Link to="/products">Products</Link>
           </li>
         )}
-        {location.pathname !== "/details" && (
-          <li>
-            <Link to="/details">Details</Link>
-          </li>
-        )}
         {location.pathname !== "/ShoppingCart" && (
           <li>
             <Link to="/ShoppingCart">Shopping Cart</Link>
