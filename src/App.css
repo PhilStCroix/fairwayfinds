@@ -4,7 +4,7 @@
   text-align: center;
   background-color: var(--primary-color);
   font-size: 48px;
-  color: var(--fifth-color);
+  color: black;
 }
 .Navbar {
   font-size: 32px;
@@ -30,13 +30,14 @@
   padding: 20px;
   margin: 20px;
 }
+
 h3{
   font-size: 24px;
 }
 
 footer {
   background-color: var(--primary-color);
-  color: var(--fifth-color);
+  color: black;
   text-align: center;
 }
 
@@ -49,7 +50,7 @@ a:hover {
 }
 
 a:visited {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .App-header {
@@ -165,9 +166,66 @@ a:visited {
 }
 
 .add-to-cart-button {
-  background-color: #007bff;
+  background-color: var(--fifth-color);
   color: #fff;
   border: none;
-  padding: 10px 20px;
   cursor: pointer;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.shopping-cart-container {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.scproduct {
+  display:flexbox;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 700px;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.button {
+  background-color: var(--fifth-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.button:hover {
+  font-weight: 700;
+}
+
+.checkout-container{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+}
+
+button {
+  background-color: var(--fifth-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+button:hover {
+  background-color: var(--fifth-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+.proceed{
+  justify-content: center;
 }

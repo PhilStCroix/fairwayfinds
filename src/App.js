@@ -10,6 +10,8 @@ import Footer from './shared/Footer';
 import axios from 'axios';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
+import { CartProvider } from "./components/CartContext";
+
 
 function App() {
   const [categories, setCategories] = useState([]);
@@ -25,6 +27,7 @@ function App() {
   }, []);
 
   return (
+    <CartProvider>
     <Router>
       <Header />
       <Navbar />
@@ -37,6 +40,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </CartProvider>
   );
 }
 

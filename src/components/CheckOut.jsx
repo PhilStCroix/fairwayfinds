@@ -1,11 +1,113 @@
-import React from "react";
+import React, { useState } from "react";
+import { useCart } from "./CartContext";
 
-const CheckOut = () => {
+const Checkout = () => {
+  const { cartItems } = useCart();
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    address: "",
+    city: "",
+    postalCode: "",
+  });
+
+  const calculateTotalPrice = () => {
+    const totalPrice = cartItems.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
+
+    return totalPrice.toFixed(2);
+  };
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // You can implement your own logic here for handling the form submission
+    console.log("Form data:", formData);
+  };
+
   return (
-    <div className="Nav-item">
-      <h1>Check Out</h1>
-    </div>
+    <>
+      <h2 style={{ textAlign: "center" }}>Checkout</h2>
+      <div className="checkout-container">
+        <form onSubmit={handleSubmit}>
+          <label>
+            First Name:
+            <input
+              type="text"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>
+            Last Name:
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>
+            Email:
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>
+            Address:
+            <input
+              type="text"
+              name="address"
+              value={formData.address}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>
+            City:
+            <input
+              type="text"
+              name="city"
+              value={formData.city}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>
+            Postal Code:
+            <input
+              type="text"
+              name="postalCode"
+              value={formData.postalCode}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label>Total Amount: ${calculateTotalPrice()}</label>
+          <button type="submit" className="button">
+            Place Order
+          </button>
+        </form>
+      </div>
+    </>
   );
 };
 
-export default CheckOut;
+export default Checkout;

@@ -4,18 +4,18 @@
       "id": 1,
       "name": "Apparel",
       "products": [
-        { "id": 100001, "name": "Golf Polo Shirt", "price": 40.99, "image": "https://th.bing.com/th/id/OIP.qlGrKz1HB9EVW_5-jJNn1AHaHa?pid=ImgDet&rs=1", "info":"Mens Polo Shirts Quick-Dry Cool Short Sleeve Sports Casual Tennis Golf Shirt for Men" },
-        { "id": 100002, "name": "Golf Shorts", "price": 59.99, "image": "https://th.bing.com/th/id/OIP.2kt4oLcpNWmuKJ5wAISbAwHaHa?pid=ImgDet&rs=1", "info":"Mens Golf Outdoor Shorts Lightweight Quick Dry Hiking Cargo Work Camping Shorts with 5 Pockets" },
-        { "id": 100003, "name": "Golf Pants", "price": 89.99, "image": "https://s3-eu-west-1.amazonaws.com/images.linnlive.com/d34feea8acfee8d2f7098a3316bb6d5e/b254e257-4f31-4891-b521-ad2660e21c87.jpg" },
+        { "id": 100001, "name": "Golf Polo Shirt", "price": 40.99, "image": "https://th.bing.com/th/id/OIP.qlGrKz1HB9EVW_5-jJNn1AHaHa?pid=ImgDet&rs=1", "info":"Mens Polo Shirts Quick-Dry Cool Short Sleeve Sports Casual Golf Shirt for Men" },
+        { "id": 100002, "name": "Golf Shorts", "price": 59.99, "image": "https://th.bing.com/th/id/OIP.2kt4oLcpNWmuKJ5wAISbAwHaHa?pid=ImgDet&rs=1", "info":"Mens Golf Outdoor Shorts Lightweight Quick Dry Shorts with 5 Pockets" },
+        { "id": 100003, "name": "Golf Pants", "price": 89.99, "image": "https://s3-eu-west-1.amazonaws.com/images.linnlive.com/d34feea8acfee8d2f7098a3316bb6d5e/b254e257-4f31-4891-b521-ad2660e21c87.jpg", "info": "Stay comfortable and stylish on the golf course with these high-quality golf pants. Designed for flexibility and performance, these pants are a perfect choice for every swing." },
         { "id": 100004, "name": "Golf Shoes", "price": 129.99, "image": "https://www.snaintongolf.co.uk/pub/media/catalog/product/n/i/nike-air-zoom-victory-golf-shoes-aq1524-100-right.jpg", "info":"FootJoy Mens Traditions Sneaker" },
-        { "id": 100005, "name": "Golf Jacket", "price": 149.99, "image": "https://i.pinimg.com/originals/47/2a/df/472adf1eba387af7994cf3562faa304a.jpg", "info":"33,000ft Packable Rain Jacket Men's Lightweight Waterproof Rain Shell Jacket Raincoat with Hood for Golf Cycling Windbreaker"}
+        { "id": 100005, "name": "Golf Jacket", "price": 149.99, "image": "https://i.pinimg.com/originals/47/2a/df/472adf1eba387af7994cf3562faa304a.jpg", "info":"33,000ft Packable Rain Jacket Men's Lightweight Waterproof Rain Shell Jacket Raincoat with Hood for Golf"}
       ]
     },
     {
       "id": 2,
       "name": "Equipment",
       "products": [
-        { "id": 200001, "name": "Golf Clubs Set", "price": 714.99, "image": "https://th.bing.com/th/id/OIP.6kBGXmWg7vLhZCKSR8k-XgAAAA?pid=ImgDet&rs=1", "info":"Golf Laser Graphite Hybrid Irons Set 4-SW (8 Clubs) - Mens Right Hand" },
+        { "id": 200001, "name": "Golf Clubs Set", "price": 714.99, "image": "https://th.bing.com/th/id/OIP.6kBGXmWg7vLhZCKSR8k-XgAAAA?pid=ImgDet&rs=1", "info":"Golf Laser Graphite Hybrid Club Set 3-Woods 6-Irons 1-Putter (10 Clubs) - Mens Right Hand" },
         { "id": 200002, "name": "Golf Driver", "price": 324.99, "image": "https://th.bing.com/th/id/OIP.eUiIwyY65-oZDP7v0AoIuQHaHa?pid=ImgDet&rs=1", "info":"Men's Complete Golf Club Set - #1 Driver - #7 Iron (28°) - Sand Wedge (52°) - Putter - Golf Stand Bag" },
         { "id": 200003, "name": "Golf Irons", "price": 94.99, "image": "https://th.bing.com/th/id/OIP.Q29lMyXha4zHnJEBWG6W2gHaF6?pid=ImgDet&rs=1", "info":"MacGregor Golf VIP Iron Set 4-PW, Mens Right Hand" },
         { "id": 200004, "name": "Golf Fairway Woods", "price": 244.99, "image": "https://th.bing.com/th/id/OIP.VwGg6uu8H7joaaYwVAJPbgHaHa?pid=ImgDet&rs=1", "info":"Z35 Mens Golf Fairway Woods 3/5,Right Handed" },
