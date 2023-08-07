@@ -4,43 +4,39 @@
       "id": 1,
       "name": "Apparel",
       "products": [
-        { "id": 100001, "name": "Golf Polo Shirt", "price": 10.99, "image": "https://th.bing.com/th/id/OIP.qlGrKz1HB9EVW_5-jJNn1AHaHa?pid=ImgDet&rs=1" },
-        { "id": 100002, "name": "Golf Shorts", "price": 19.99, "image": "https://th.bing.com/th/id/OIP.2kt4oLcpNWmuKJ5wAISbAwHaHa?pid=ImgDet&rs=1"  },
-        { "id": 100003, "name": "Golf Pants", "price": 29.99, "image": "https://i.pinimg.com/originals/9a/a6/fc/9aa6fc16d295b726415494cfc18fc28f.png" },
-        { "id": 100004, "name": "Golf Shoes", "price": 39.99, "image": "https://www.snaintongolf.co.uk/pub/media/catalog/product/n/i/nike-air-zoom-victory-golf-shoes-aq1524-100-right.jpg" },
-        { "id": 100005, "name": "Golf Jacket", "price": 49.99, "image": "https://i.pinimg.com/originals/47/2a/df/472adf1eba387af7994cf3562faa304a.jpg"},
-        { "id": 100006, "name": "Golf T-Shirt", "price": 59.99, "image": "https://i.pinimg.com/736x/62/93/69/6293695054abedfc433288bb0147ef40.jpg" },
-        { "id": 100007, "name": "Golf Skirt", "price": 10.99, "image": "https://th.bing.com/th/id/OIP.kAILl1E_fAtrgFWab1VnqQHaHP?pid=ImgDet&rs=1"},
-        { "id": 100008, "name": "Golf Hat", "price": 10.99, "image": "https://i.pinimg.com/736x/64/5a/7f/645a7f7b261148a6a12b71f1a839c594.jpg"},
-        { "id": 100009, "name": "Golf Socks", "price": 19.99, "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/529eaa68b3b1a9d8990241065d53900d.jpg?imageView2/2/w/800/q/70" },
-        { "id": 100010, "name": "Golf Gloves", "price": 29.99, "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/2821925213528e8428ae7c70622fe8f3.jpg?imageView2/2/w/800/q/70" },
-        { "id": 100011, "name": "Golf Belts", "price": 39.99, "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/a770967a94859f2ec0777777d0c9c2ab.jpg?imageView2/2/w/800/q/70" },
-        { "id": 100012, "name": "Golf Rain Gear", "price": 49.99, "image": "https://th.bing.com/th/id/R.8ef9ff8662cb4301e7f5894f39a84ef6?rik=AL6N%2fkOOIrxfWQ&riu=http%3a%2f%2fwww.jacksgolfingsolutions.com%2fGraphics%2fGolf-Apparel%2fRainwear%2fMens%2fRain-Suits%2fAcme-Projects-Mens-Waterproof-Breathable-Golf-Rain-Suits%2f1.jpg&ehk=Y%2bsyU6XrEZUd1lPCsKL10M8Mwxh9Jm7sEFMEElYaeBA%3d&risl=&pid=ImgRaw&r=0"},
-        { "id": 100013, "name": "Golf Long-Sleeve Shirt", "price": 59.99, "image": "https://images-na.ssl-images-amazon.com/images/I/61Bj8Q1k7ML._AC_UX569_.jpg" },
-        { "id": 100014, "name": "Golf Base Layer", "price": 10.99, "image": "https://www.foremostgolf.com/images/thumbs/0082620_footjoy-mens-thermoseries-golf-base-layer.jpeg"},
-        { "id": 100015, "name": "Golf Compression Sleeves", "price": 10.99, "image": "https://th.bing.com/th/id/R.0b0ce08e8561495543faaf47e4511a06?rik=qBbco3HFsqb3SA&riu=http%3a%2f%2fyurnebi.com%2fwp-content%2fuploads%2f2018%2f09%2f27730.jpg&ehk=iu9AqbMaW3BiA%2bFnWQ%2f9vKooLQNAFQ%2fWkazT3MFB7qs%3d&risl=&pid=ImgRaw&r=0"},
-        { "id": 100016, "name": "Golf Rain Hat", "price": 19.99, "image": "https://www.thegolfshoponline.co.uk/assets/images/productimages/original/WideBrimHat%202021.jpg" },
-        { "id": 100017, "name": "Golf Sun Hat", "price": 29.99, "image": "https://image.globalgolf.com/dynamic/1027794/aaf/back-view/1027794-aaa.jpg?s=1240" },
-        { "id": 100018, "name": "Golf Shoe Spikes", "price": 39.99, "image": "https://img.kwcdn.com/product/open/2023-06-23/1687550816350-ff00f3f26f0d47dd81cbda73e8a23337-goods.jpeg?imageView2/2/w/800/q/70" },
-        { "id": 100019, "name": "Golf Jacket", "price": 49.99, "image": "https://images-na.ssl-images-amazon.com/images/I/71jcZ%2BMMiKL._AC_UL1500_.jpg"},
-        { "id": 100020, "name": "Golf Umbrella", "price": 59.99, "image": "https://primarydistributorsltd.com/wp-content/uploads/2019/08/download-2019-08-20T140057.690.jpg" }
-        ]
+        { "id": 100001, "name": "Golf Polo Shirt", "price": 40.99, "image": "https://th.bing.com/th/id/OIP.qlGrKz1HB9EVW_5-jJNn1AHaHa?pid=ImgDet&rs=1", "info":"Mens Polo Shirts Quick-Dry Cool Short Sleeve Sports Casual Tennis Golf Shirt for Men" },
+        { "id": 100002, "name": "Golf Shorts", "price": 59.99, "image": "https://th.bing.com/th/id/OIP.2kt4oLcpNWmuKJ5wAISbAwHaHa?pid=ImgDet&rs=1", "info":"Mens Golf Outdoor Shorts Lightweight Quick Dry Hiking Cargo Work Camping Shorts with 5 Pockets" },
+        { "id": 100003, "name": "Golf Pants", "price": 89.99, "image": "https://i.pinimg.com/originals/9a/a6/fc/9aa6fc16d295b726415494cfc18fc28f.png", "info": "Men's Golf Pants with 5 Pockets Lightweight Stretch Quick Dry Casual Travel Work Dress Pants" },
+        { "id": 100004, "name": "Golf Shoes", "price": 129.99, "image": "https://www.snaintongolf.co.uk/pub/media/catalog/product/n/i/nike-air-zoom-victory-golf-shoes-aq1524-100-right.jpg", "info":"FootJoy Mens Traditions Sneaker" },
+        { "id": 100005, "name": "Golf Jacket", "price": 149.99, "image": "https://i.pinimg.com/originals/47/2a/df/472adf1eba387af7994cf3562faa304a.jpg", "info":"33,000ft Packable Rain Jacket Men's Lightweight Waterproof Rain Shell Jacket Raincoat with Hood for Golf Cycling Windbreaker"}
+      ]
     },
     {
       "id": 2,
       "name": "Equipment",
       "products": [
-        { "id": 200001, "name": "Equipment Product 1", "price": 14.99, "image": "https://via.placeholder.com/150"  },
-        { "id": 200002, "name": "Equipment Product 2", "price": 24.99, "image": "https://via.placeholder.com/150"  }
+        { "id": 200001, "name": "Golf Clubs Set", "price": 714.99, "image": "https://th.bing.com/th/id/OIP.6kBGXmWg7vLhZCKSR8k-XgAAAA?pid=ImgDet&rs=1", "info":"Golf Laser Graphite Hybrid Irons Set 4-SW (8 Clubs) - Mens Right Hand" },
+        { "id": 200002, "name": "Golf Driver", "price": 324.99, "image": "https://th.bing.com/th/id/OIP.eUiIwyY65-oZDP7v0AoIuQHaHa?pid=ImgDet&rs=1", "info":"Men's Complete Golf Club Set - #1 Driver - #7 Iron (28°) - Sand Wedge (52°) - Putter - Golf Stand Bag" },
+        { "id": 200003, "name": "Golf Irons", "price": 94.99, "image": "https://th.bing.com/th/id/OIP.Q29lMyXha4zHnJEBWG6W2gHaF6?pid=ImgDet&rs=1", "info":"MacGregor Golf VIP Iron Set 4-PW, Mens Right Hand" },
+        { "id": 200004, "name": "Golf Fairway Woods", "price": 244.99, "image": "https://th.bing.com/th/id/OIP.VwGg6uu8H7joaaYwVAJPbgHaHa?pid=ImgDet&rs=1", "info":"Z35 Mens Golf Fairway Woods 3/5,Right Handed" },
+        { "id": 200005, "name": "Golf Wedges", "price": 154.99, "image": "https://i.ebayimg.com/images/g/GWMAAOSwtxlarwyz/s-l300.jpg", "info": "Milled Golf Wedges for High Spin, Men Right Handed, 52/56/60 Degree"}
       ]
     },
     {
       "id": 3,
       "name": "Accessories",
       "products": [
-        { "id": 300001, "name": "Accessory Product 1", "price": 9.99, "image": "https://via.placeholder.com/150"  },
-        { "id": 300002, "name": "Accessory Product 2", "price": 29.99, "image": "https://via.placeholder.com/150"  }
+        { "id": 300001, 
+          "name": "Golf Ball Retainer Clip", 
+          "price": 9.99, 
+          "image": "https://cc7xt9.c2.acecdn.net/pub/media/catalog/product/cache/4f04758416f7e24b1ba9109e8dc280cb/4/0/402012.jpg",
+        "info":"Golf Club Brush Cleaner with Retainer Clip and Squeeze Water Bottle 7.5 Inches Holds 4 Ounces of Water, Essentials Golf Accessories for Men, Best Golf Gifts for Men" },
+        { "id": 300002, "name": "Golf Bag Rain Hood", "price": 39.99, "image": "https://i.ebayimg.com/images/g/UZoAAOSwDvZerWIc/s-l300.jpg", "info":"Rain Wedge Easy Access Golf Bag Rain Hood/Cover" },
+        { "id": 300004, "name": "Golf Bag Tag/Identification", "price": 49.99, "image": "https://th.bing.com/th/id/OIP.pJ_Oi-CQkM1s2YjkA6qL7wHaHa?w=198&h=197&c=7&r=0&o=5&pid=1.7", "info":"Golf Sports Ball Lovers 3D Printing Round Luggage Tag Sets for Backpack Bag Vinyl PVC Waterproof Adjustable Personalized Luggage Id Tags for Women Men Kids Travel Accessories Golf Gifts Merchandise" },
+        { "id": 300005, "name": "Golf Shoe Spike Wrench", "price": 59.99, "image": "https://th.bing.com/th/id/OIP.1KChCDToq5VKUZu_Sl2DggHaHa?w=213&h=213&c=7&r=0&o=5&pid=1.7", "inofo":"Golf Shoes Spike Wrench, Stainless Steel Golf Shoe Cleats Ratchet Wrench Remover Removing Ripper Golf Spike Tool" },
+        { "id": 300006, "name": "Golf Scorecard Holder", "price": 69.99, "image": "https://th.bing.com/th/id/OIP.QP9ywcnrzc04LLtrxgBWLwHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7", "info":"Leather Golf Scorecard Holder, Handstitched, Golf Gifts, Yardage Book Holder, Leather Gifts, Gifts For Dad, Gifts For Golfers, Personalized Customized Gifts"}
       ]
     }
   ]
 }
+        
