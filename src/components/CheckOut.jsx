@@ -111,9 +111,12 @@ const Checkout = () => {
             />
           </label>
           <label>Total Amount: ${calculateTotalPrice()}</label>
-          <button type="submit" className="button" style={{ color: "white" }}>
-            Place Order
-          </button>
+          <Link to="/ThankYou">
+            <button type="submit" className="button" style={{ color: "white" }}>
+              Place Order
+            </button>
+          </Link>
+
           <br />
           <br />
           <Link to="/ShoppingCart" className="button">

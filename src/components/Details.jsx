@@ -132,8 +132,8 @@ const Details = ({ categories }) => {
             Return to Products
           </Link>
           &nbsp;&nbsp;&nbsp;
-          <Link to="/Checkout" className="button">
-            Proceed to Checkout
+          <Link to="/ShoppingCart" className="button">
+            Go To Shopping Cart
           </Link>
           {/* Display the pop-up when showAddedToCart is true */}
           {showAddedToCart && (
