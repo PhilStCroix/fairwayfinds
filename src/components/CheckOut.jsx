@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
-  const { cartItems } = useCart();
+  const { cartItems, setCartItems } = useCart();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -33,6 +34,15 @@ const Checkout = () => {
     event.preventDefault();
     // You can implement your own logic here for handling the form submission
     console.log("Form data:", formData);
+
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      address: "",
+      city: "",
+      postalCode: "",
+    });
   };
 
   return (
@@ -104,6 +114,11 @@ const Checkout = () => {
           <button type="submit" className="button" style={{ color: "white" }}>
             Place Order
           </button>
+          <br />
+          <br />
+          <Link to="/ShoppingCart" className="button">
+            Return Shopping Cart
+          </Link>
         </form>
       </div>
     </>

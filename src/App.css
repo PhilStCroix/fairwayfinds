@@ -241,3 +241,14 @@ button:hover {
 .proceed{
   justify-content: center;
 }
+
+.added-to-cart {
+  position: fix;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10pz 20px;
+  border-radius: 4px;
+  z-index: 9999;
+}
