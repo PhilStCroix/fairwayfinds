@@ -101,7 +101,7 @@ const Checkout = () => {
             />
           </label>
           <label>Total Amount: ${calculateTotalPrice()}</label>
-          <button type="submit" className="button">
+          <button type="submit" className="button" style={{ color: "white" }}>
             Place Order
           </button>
         </form>

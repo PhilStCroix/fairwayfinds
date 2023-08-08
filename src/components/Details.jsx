@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useCart } from "./CartContext"; // Import useCart from your CartContext
 
 const Details = ({ categories }) => {
@@ -41,6 +41,14 @@ const Details = ({ categories }) => {
           >
             Add to Cart
           </button>
+          &nbsp;&nbsp;&nbsp;
+          <Link to="/Products" className="button">
+            Return to Products
+          </Link>
+          &nbsp;&nbsp;&nbsp;
+          <Link to="/CheckOut" className="button">
+            Go to Checkout
+          </Link>
         </div>
       </div>
     </>

@@ -44,6 +44,13 @@ const ShoppingCart = () => {
         <Link to="/CheckOut" className="button">
           Proceed to Checkout
         </Link>
+        <br />
+        <br />
+        <Link to="/Products" className="button">
+          Return to Products
+        </Link>
+        <br />
+        <br />
       </div>
       {/* <div style={{ textAlign: "center", marginTop: "20px" }}>
           <p>Total Price: ${calculateTotalPrice()}</p>

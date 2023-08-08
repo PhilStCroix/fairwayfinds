@@ -49,8 +49,12 @@ a:hover {
   font-weight: 700;
 }
 
-a:visited {
+a {
   color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: white;
 }
 
 .App-header {
@@ -64,9 +68,7 @@ a:visited {
   color: (var)--primary-color;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -196,6 +198,16 @@ a:visited {
   cursor: pointer;
   justify-content: center;
   box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+}
+
+.button1 {
+  background-color: var(--fifth-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.402);
+
 }
 
 .button:hover {

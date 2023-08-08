@@ -23,11 +23,15 @@ const ProductsPage = () => {
       <h1 style={{ color: "white" }}>All Our Products in one Place</h1>
 
       {categories.map((category) => (
-        <div key={category.id} className="category-container">
+        <div
+          key={category.id}
+          className="category-container"
+          id={category.name}
+        >
           <h2 className="category-name" style={{ color: "white" }}>
             {category.name}
           </h2>
-          <div className="table-container">
+          <div className="table-container" id={category.name}>
             <table>
               <thead>
                 <tr>
