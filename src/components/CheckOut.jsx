@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Checkout = () => {
+  const navigate = useNavigate();
+
   const { cartItems, setCartItems } = useCart();
   const [formData, setFormData] = useState({
     firstName: "",
@@ -43,7 +45,24 @@ const Checkout = () => {
       city: "",
       postalCode: "",
     });
-    setCartItems([]);
+    const submissionSuccessful = true;
+
+    if (submissionSuccessful) {
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        address: "",
+        city: "",
+        postalCode: "",
+      });
+
+      // Clear the cart items after successful submission
+      setCartItems([]);
+
+      // Redirect to Thank You page
+      navigate("/thankyou");
+    }
   };
 
   return (

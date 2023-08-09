@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "no-restricted-globals": [
+      "error",
+      {
+        "name": "history",
+        "message": "Use react-router's useHistory instead."
+      }
+    ]
+  }
+}
