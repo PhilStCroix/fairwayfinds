@@ -128,12 +128,12 @@ const Details = ({ categories }) => {
             Add to Cart
           </button>
           &nbsp;&nbsp;&nbsp;
-          <Link to="/Products" className="button">
-            Return to Products
+          <Link to="/Products">
+            <button className="button">Return to Products</button>
           </Link>
           &nbsp;&nbsp;&nbsp;
-          <Link to="/ShoppingCart" className="button">
-            Go To Shopping Cart
+          <Link to="/ShoppingCart">
+            <button className="button">Go To Shopping Cart</button>
           </Link>
           {/* Display the pop-up when showAddedToCart is true */}
           {showAddedToCart && (

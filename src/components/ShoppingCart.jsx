@@ -41,13 +41,13 @@ const ShoppingCart = () => {
         style={{ textAlign: "center", marginTop: "20px" }}
         className="proceed"
       >
-        <Link to="/CheckOut" className="button">
-          Proceed to Checkout
+        <Link to="/CheckOut">
+          <button className="button">Proceed to Checkout</button>
         </Link>
         <br />
         <br />
-        <Link to="/Products" className="button">
-          Return to Products
+        <Link to="/Products">
+          <button className="button">Return to Products</button>
         </Link>
         <br />
         <br />

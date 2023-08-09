@@ -112,15 +112,15 @@ const Checkout = () => {
           </label>
           <label>Total Amount: ${calculateTotalPrice()}</label>
           <Link to="/ThankYou">
-            <button type="submit" className="button" style={{ color: "white" }}>
+            <button type="submit" className="button">
               Place Order
             </button>
           </Link>
 
           <br />
           <br />
-          <Link to="/ShoppingCart" className="button">
-            Return Shopping Cart
+          <Link to="/ShoppingCart">
+            <button className="button">Return to Shopping Cart</button>
           </Link>
         </form>
       </div>
