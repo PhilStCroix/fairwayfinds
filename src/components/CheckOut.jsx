@@ -43,6 +43,7 @@ const Checkout = () => {
       city: "",
       postalCode: "",
     });
+    setCartItems([]);
   };
 
   return (
@@ -111,11 +112,9 @@ const Checkout = () => {
             />
           </label>
           <label>Total Amount: ${calculateTotalPrice()}</label>
-          <Link to="/ThankYou">
-            <button type="submit" className="button">
-              Place Order
-            </button>
-          </Link>
+          <button type="submit" className="button">
+            Place Order
+          </button>
 
           <br />
           <br />
