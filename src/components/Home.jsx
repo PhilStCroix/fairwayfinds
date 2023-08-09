@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
+      {/* Navigation section */}
       <div className="Nav-item" id="home">
         <br />
         <h1>Your Ultimate Golf Equipment and Apparel Destination</h1>
@@ -18,11 +19,13 @@ const Home = () => {
             border: "3px solid #ccc",
             borderRadius: "4px",
             borderColor: "forestgreen",
-          }} // Adjust styles as needed
+          }}
         />
         <br />
       </div>
+      {/* Category section */}
       <div className="Category">
+        {/* Link to Apparel */}
         <Link to="./Products">
           <h3>Apparel</h3>
           <img
@@ -38,6 +41,7 @@ const Home = () => {
             }}
           />
         </Link>
+        {/* Link to Equipment */}
         <Link to="./Products">
           <h3>Equipment</h3>
           <img
@@ -53,6 +57,7 @@ const Home = () => {
             }}
           />
         </Link>
+        {/* Link to Accessories */}
         <Link to="./Products">
           <h3>Accessories</h3>
           <img

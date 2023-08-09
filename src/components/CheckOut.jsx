@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { useCart } from "./CartContext";
 import { Link, useNavigate } from "react-router-dom";
 
+// Checkout component
 const Checkout = () => {
+  // Hooks
   const navigate = useNavigate();
-
   const { cartItems, setCartItems } = useCart();
   const [formData, setFormData] = useState({
     firstName: "",
@@ -15,6 +16,7 @@ const Checkout = () => {
     postalCode: "",
   });
 
+  // Calculate total price of items in the cart
   const calculateTotalPrice = () => {
     const totalPrice = cartItems.reduce(
       (total, item) => total + item.price * item.quantity,
@@ -24,6 +26,7 @@ const Checkout = () => {
     return totalPrice.toFixed(2);
   };
 
+  // Handle input change
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevData) => ({
@@ -32,11 +35,14 @@ const Checkout = () => {
     }));
   };
 
+  // Handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
+
     // You can implement your own logic here for handling the form submission
     console.log("Form data:", formData);
 
+    // Clear form data
     setFormData({
       firstName: "",
       lastName: "",
@@ -45,9 +51,11 @@ const Checkout = () => {
       city: "",
       postalCode: "",
     });
+
     const submissionSuccessful = true;
 
     if (submissionSuccessful) {
+      // Clear form data
       setFormData({
         firstName: "",
         lastName: "",
@@ -70,6 +78,7 @@ const Checkout = () => {
       <h2 style={{ textAlign: "center" }}>Checkout</h2>
       <div className="checkout-container">
         <form onSubmit={handleSubmit}>
+          {/* First Name */}
           <label>
             First Name:
             <input
@@ -80,6 +89,7 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* Last Name */}
           <label>
             Last Name:
             <input
@@ -90,6 +100,7 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* Email */}
           <label>
             Email:
             <input
@@ -100,6 +111,7 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* Address */}
           <label>
             Address:
             <input
@@ -110,6 +122,7 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* City */}
           <label>
             City:
             <input
@@ -120,6 +133,7 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* Postal Code */}
           <label>
             Postal Code:
             <input
@@ -130,13 +144,16 @@ const Checkout = () => {
               required
             />
           </label>
+          {/* Total Amount */}
           <label>Total Amount: ${calculateTotalPrice()}</label>
+          {/* Place Order button */}
           <button type="submit" className="button">
             Place Order
           </button>
 
           <br />
           <br />
+          {/* Return to Shopping Cart button */}
           <Link to="/ShoppingCart">
             <button className="button">Return to Shopping Cart</button>
           </Link>

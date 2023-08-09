@@ -1,10 +1,13 @@
 import React, { createContext, useContext, useState } from "react";
 
+// Create a context to manage cart-related data
 const CartContext = createContext();
 
+// Export cartprovider component that manages the cart state and provides functions to modify it
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
+  // Function to add a product to the cart
   const addToCart = (product) => {
     const existingItem = cartItems.find((item) => item.id === product.id);
     if (existingItem) {
@@ -18,6 +21,8 @@ export const CartProvider = ({ children }) => {
       setCartItems([...cartItems, { ...product, quantity: 1 }]);
     }
   };
+
+  // Remove product from cart
   const removeFromCart = (productId) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== productId);
     setCartItems(updatedCartItems);
@@ -32,6 +37,7 @@ export const CartProvider = ({ children }) => {
   );
 };
 
+// Custom hook to use the cart context values conveniently in components
 export const useCart = () => {
   return useContext(CartContext);
 };

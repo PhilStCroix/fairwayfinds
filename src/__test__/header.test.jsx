@@ -2,7 +2,9 @@ import React from "react";
 import { render } from "@testing-library/react";
 import Header from "../components/Header";
 
+// Test the Header component
 describe("Header component", () => {
+  // Test the rendering of the Header component with default props
   it("renders with default props", () => {
     const { getByText } = render(<Header />);
 
@@ -18,6 +20,7 @@ describe("Header component", () => {
     expect(headerElement).toHaveStyle("color: var(--secondary-color)");
   });
 
+  // Test the rendering of the Header component with custom props
   it("renders with custom props", () => {
     const customProps = {
       text: "Custom Header",
